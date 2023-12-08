@@ -13,7 +13,7 @@ function work()
 	{
 		result.textContent = input.value.toLocaleUpperCase()
 	} else {
-		const text_array = input.value.split('');
+		const text_array = input.value.split('')
 
 		for (let i = 0; i < 3; i++) {
 			text_array[i] = text_array[i].toLocaleLowerCase()
